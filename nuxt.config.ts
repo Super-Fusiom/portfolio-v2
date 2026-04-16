@@ -35,5 +35,6 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxt/icon",
     "@vueuse/nuxt",
+    "@nuxt/fonts",
   ],
 });
