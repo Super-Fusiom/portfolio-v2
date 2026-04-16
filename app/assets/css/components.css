@@ -1,4 +1,12 @@
 .card {
     background: var(--color-primary);
-    border: 1rem solid var(--color-border);
+    border: 0.4rem solid var(--color-border);
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }

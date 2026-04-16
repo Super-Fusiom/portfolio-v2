@@ -15,3 +15,28 @@ a {
     text-decoration: none;
     color: var(--color-muted);
 }
+
+a:hover {
+    color: var(--color-primary);
+}
+
+body {
+    background-color: var(--color-bg);
+    font-family: "Inter Variable", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+nav > div {
+    display: flex;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+
+footer {
+    align-self: center;
+}
