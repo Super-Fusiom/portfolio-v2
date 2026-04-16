@@ -7,15 +7,3 @@
         </div>
     </nav>
 </template>
-
-<style>
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-nav > div {
-    display: flex;
-    gap: 3rem;
-}
-</style>
