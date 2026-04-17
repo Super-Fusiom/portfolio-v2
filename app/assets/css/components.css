@@ -10,3 +10,7 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.hero {
+    font-size: 2rem;
+}
