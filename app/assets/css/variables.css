@@ -1,10 +1,10 @@
 @import "@fontsource-variable/inter/wght.css";
 
 :root {
-    --color-bg: hsl(169, 26%, 28%);
+    --color-bg: hsl(0, 0%, 0%);
     --color-primary: hsl(128, 29%, 55%);
     --color-primary-hover: hsl(120, 27%, 64%);
     --color-text: hsl(217, 98%, 14%);
-    --color-border: hsl(0, 0%, 0%);
+    --color-border: hsl(169, 26%, 28%);
     --color-muted: hsl(128, 29%, 32%);
 }
