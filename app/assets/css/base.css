@@ -13,11 +13,11 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--color-muted);
+    color: var(--color-primary);
 }
 
 a:hover {
-    color: var(--color-primary);
+    color: var(--color-primary-hover);
 }
 
 body {
