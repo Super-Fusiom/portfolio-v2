@@ -2,7 +2,7 @@ h1,
 h2,
 h3 {
     margin: 0;
-    color: var(--color-text);
+    color: var(--color-primary);
 }
 
 p {
@@ -34,11 +34,12 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 nav > div {
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
     margin-right: 2rem;
 }
 

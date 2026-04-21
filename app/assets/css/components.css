@@ -5,6 +5,10 @@
     padding: 1rem;
 }
 
+.card > * {
+    color: hsl(0, 0%, 0%);
+}
+
 .list {
     display: flex;
     flex-direction: column;
