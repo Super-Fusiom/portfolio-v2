@@ -26,3 +26,16 @@
     margin-left: 35%;
     margin-right: 35%;
 }
+
+.tags {
+    display: flex;
+    gap: 2rem;
+}
+
+.tags > * {
+    font-weight: 1000;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-color: var(--color-border);
+    background-color: var(--color-bg);
+}
