@@ -2,9 +2,9 @@
 
 :root {
     --color-bg: hsl(0, 0%, 0%);
-    --color-primary: hsl(128, 29%, 55%);
+    --color-primary: hsl(128, 35%, 50%);
     --color-primary-hover: hsl(120, 27%, 64%);
-    --color-text: hsl(217, 98%, 14%);
+    --color-text: hsl(217, 100%, 100%);
     --color-border: hsl(169, 26%, 28%);
     --color-muted: hsl(128, 29%, 32%);
 }
