@@ -37,13 +37,10 @@ nav > div {
     margin-right: 2rem;
 }
 
-footer {
-    align-self: center;
-}
-
 footer > div {
     display: flex;
-    align-items: flex-end;
+    justify-items: center;
+    align-items: center;
     gap: 2rem;
 }
 
