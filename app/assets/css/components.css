@@ -14,3 +14,11 @@
 .hero {
     font-size: 2rem;
 }
+
+.md-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 35%;
+    margin-right: 35%;
+}

@@ -6,6 +6,6 @@ const { data: post } = await useAsyncData(() =>
 </script>
 
 <template>
-    <ContentRenderer v-if="post" :value="post" />
+    <ContentRenderer class="md-content" v-if="post" :value="post" />
     <h1 v-else>Post not found</h1>
 </template>
