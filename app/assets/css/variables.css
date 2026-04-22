@@ -1,4 +1,6 @@
 @import "@fontsource-variable/inter/wght.css";
+/* monospace font */
+@import "@fontsource-variable/victor-mono/wght.css";
 
 :root {
     --color-bg: hsl(161, 44%, 7%);

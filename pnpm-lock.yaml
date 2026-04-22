@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/inter':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource-variable/victor-mono':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@nuxt/content':
         specifier: 3.12.0
         version: 3.12.0(better-sqlite3@12.8.0)(magicast@0.5.2)
@@ -428,6 +431,9 @@ packages:
 
   '@fontsource-variable/inter@5.2.8':
     resolution: {integrity: sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ==}
+
+  '@fontsource-variable/victor-mono@5.2.8':
+    resolution: {integrity: sha512-1j2AWMs4QhTbAdMcd5tyiVa/DZfT2Xk4DG4P2MmRDudYlo9o3hlWECrgk5sB9dAzXHYjimqb3E/VQFy7NR4p3w==}
 
   '@iconify/collections@1.0.671':
     resolution: {integrity: sha512-+UO1BvRCf2zpuKg6REnJfgDjKvtMGjmTFKIZSRhOLK3A6sAFo1ZDB+AjDE1g0lzhKZ4KZsYM7b5tCHFFvalQQA==}
@@ -6034,6 +6040,8 @@ snapshots:
       - vue
 
   '@fontsource-variable/inter@5.2.8': {}
+
+  '@fontsource-variable/victor-mono@5.2.8': {}
 
   '@iconify/collections@1.0.671':
     dependencies:

@@ -5,6 +5,11 @@ h3 {
     color: var(--color-primary);
 }
 
+code {
+    color: var(--color-text);
+    font-family: "Victor Mono Variable", monospace;
+}
+
 p {
     margin: 0;
     color: var(--color-text);
