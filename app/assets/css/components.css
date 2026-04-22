@@ -39,3 +39,9 @@
     border-color: var(--color-border);
     background-color: var(--color-bg);
 }
+
+@media only screen and (max-width: 500px) {
+    .md-content {
+        margin: 0;
+    }
+}

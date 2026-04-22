@@ -66,3 +66,17 @@ span {
 span:hover {
     color: var(--color-primary-hover);
 }
+
+@media only screen and ((max-width: 500px) or (max-height: 400px)) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    main {
+        margin: 0;
+    }
+    code {
+        font-size: 0.7rem;
+    }
+}
