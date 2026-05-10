@@ -45,3 +45,7 @@
         margin: 0;
     }
 }
+
+.license {
+    gap: 1rem;
+}

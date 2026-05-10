@@ -1,4 +1,8 @@
-# Nuxt Minimal Starter
+# PS@SF
+
+The website I post on things I want to talk about
+
+This website is using nuxt so the following is the default instructions on how to develop on your own if you want.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +77,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+## License
+The source code under `app/` is under the MIT license, all content under `content/` is CC-BY-SA 4.0. All libraries used have their own repsective licenses.

@@ -50,6 +50,10 @@ nav > div {
     margin-right: 2rem;
 }
 
+footer {
+    margin-top: 5rem;
+}
+
 footer > div {
     display: flex;
     justify-items: center;
