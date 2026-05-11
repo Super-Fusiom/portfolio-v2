@@ -2,7 +2,7 @@
 title: "Home Lab"
 description: "The big one - Sid (Toy Story)"
 tags: ["project", "personal", "networking"]
-date: 2026/04/22
+date: 2026/11/05
 ---
 
 # Home Lab
@@ -52,13 +52,23 @@ Do I need any more? Yeah Nah.
 
 ## Other Nodes
 
+Diagram for referance
+![A diagram of my home network](/diagrams/home_network_diagram.png)
+
 ### Router
 
-It's just an ISP provided router. One person in the house wanted landline and I hate it.
+It's just an ISP provided router. I wanted to replace it however, due to the requirement from others that there should be a landline present, there is no way I can actually replace it. What a shame since I also wanted to use vlans and such.
 
-### Switches
+### The access layer (Switch and access points)
 
 It's a mix of TP-Link Deco X20s and one ISP provided router with DHCP and its routing functions turned off.
 
 - 2x TP-Link Deco X20
 - 1x ISP provided router turned switch
+
+# What's next?  
+Well most of the things I want to do are already there, it's one thing to set up the things you need and another to maintain them. 
+As such, I'll be continuing to maintain my set up till something major occurs.  
+This has been one of my biggest projects in my life as I've started using virtual machines since year 7 (For y'all american folks that's grade 6).  
+Ever since I've been chasing my curiosity, from basic computer networking all the way to being a server admin for the services I use for myself and some of my friends.  
+I h
