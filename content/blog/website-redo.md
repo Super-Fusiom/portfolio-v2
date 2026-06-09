@@ -2,6 +2,7 @@
 title: "New Portfolio website"
 description: "Wait a new website?"
 tags: ["project", "personal"]
+author: "Paul Singh"
 date: 2026/04/22
 ---
 
