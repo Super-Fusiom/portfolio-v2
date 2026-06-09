@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const route = useRoute();
-const { data: post } = await useAsyncData(() =>
+const { data: post } = await useAsyncData(`blog-post-${route.params.id}`, () =>
     queryCollection("blog").path(`/blog/${route.params.id}`).first(),
 );
 
