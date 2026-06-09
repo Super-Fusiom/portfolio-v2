@@ -1,7 +1,11 @@
 <script lang="ts" setup>
 const route = useRoute();
+const cleanPath = computed(() => {
+    const base = `/blog/${route.params.id}`;
+    return base.replace(/\/+$/, "");
+});
 const { data: post } = await useAsyncData(`blog-post-${route.params.id}`, () =>
-    queryCollection("blog").path(`/blog/${route.params.id}`).first(),
+    queryCollection("blog").path(cleanPath.value).first(),
 );
 
 if (post.value) {

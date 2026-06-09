@@ -29,7 +29,11 @@ export default defineNuxtConfig({
   ssr: true,
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-
+  router: {
+    options: {
+      strict: true,
+    },
+  },
   nitro: {
     prerender: {
       routes: ["/"],
