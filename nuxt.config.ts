@@ -3,8 +3,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   app: {
     head: {
-      title: "Paul@SF",
-      titleTemplate: "%s",
+      titleTemplate: "%s | Paul@SF",
       htmlAttrs: {
         lang: "en",
       },
@@ -16,13 +15,9 @@ export default defineNuxtConfig({
   },
   seo: {
     meta: {
+      title: "%s",
       titleTemplate: "%s",
       author: "Paul Singh",
-
-      title: "Paul's website",
-      ogTitle: "Paul's website",
-      description: "Paul's blogs and projects in one website!",
-      ogDescription: "Paul's blogs and projects in one website!",
     },
   },
   vite: {
