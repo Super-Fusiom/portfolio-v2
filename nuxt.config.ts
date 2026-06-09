@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Paul@SF",
-      titleTemplate: "%s . Paul@SF",
+      titleTemplate: "%s",
       htmlAttrs: {
         lang: "en",
       },
@@ -16,7 +16,13 @@ export default defineNuxtConfig({
   },
   seo: {
     meta: {
-      titleTemplate: "%s . %siteName",
+      titleTemplate: "%s",
+      author: "Paul Singh",
+
+      title: "Paul's website",
+      ogTitle: "Paul's website",
+      description: "Paul's blogs and projects in one website!",
+      ogDescription: "Paul's blogs and projects in one website!",
     },
   },
   vite: {
@@ -28,6 +34,12 @@ export default defineNuxtConfig({
   ssr: true,
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+
+  nitro: {
+    prerender: {
+      routes: ["/"],
+    },
+  },
 
   modules: [
     "@nuxt/content",
