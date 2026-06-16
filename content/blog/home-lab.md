@@ -3,7 +3,7 @@ title: "Home Lab"
 description: "The big one - Sid (Toy Story)"
 tags: ["project", "personal", "networking"]
 author: "Paul Singh"
-date: 2026/11/05
+date: 2026/05/11
 ---
 
 # Home Lab
