@@ -71,5 +71,4 @@ It's a mix of TP-Link Deco X20s and one ISP provided router with DHCP and its ro
 Well most of the things I want to do are already there, it's one thing to set up the things you need and another to maintain them. 
 As such, I'll be continuing to maintain my set up till something major occurs.  
 This has been one of my biggest projects in my life as I've started using virtual machines since year 7 (For y'all american folks that's grade 6).  
-Ever since I've been chasing my curiosity, from basic computer networking all the way to being a server admin for the services I use for myself and some of my friends.  
-I h
+Ever since I've been chasing my curiosity, from basic computer networking all the way to being a server admin for the services I use for myself and some of my friends.
