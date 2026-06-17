@@ -25,7 +25,7 @@ For now here are my predictions as to how I feel about theses certifications bef
 Now people should realise that due to my current projects that I'm proud of, I do have a sense on networking basics. After all, I wouldn't be able to do basic things like port forwarding, static IP assignments, DHCP, ARP among other things. In saying that, I don't really know the *Cisco* style of doing this. For example, interacting with a Cisco Switch to look at its switch table or a Cisco Router to view or clear a routing table. I mean there is already a solution to this problem; Cisco packet tracer. So long as I get the basics right plus some lab work which I can easily do, this certification should be no problem!  
 The reason I'm taking this certification on board is because it gives me a foothold on computer networking as a whole.
 This includes network design which is something I've touched in university but I want to study more of to get better at it.  
-## AWS's Cloud Practitioner  
+## AWS' Cloud Practitioner  
 *The big one*  
 Now unlike the CCNA, I've actually did some AWS work through university through a course! *Lucky!* Now this does mean that I've gone through some of the basics of the Cloud that are related to AWS including:  
 - EC2 instance? (VMs)
