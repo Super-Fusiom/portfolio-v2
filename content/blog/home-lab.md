@@ -3,7 +3,7 @@ title: "Home Lab"
 description: "The big one - Sid (Toy Story)"
 tags: ["project", "personal", "networking"]
 author: "Paul Singh"
-date: 2026/05/11
+date: 2026/07/06
 ---
 
 # Home Lab
@@ -72,3 +72,10 @@ Well most of the things I want to do are already there, it's one thing to set up
 As such, I'll be continuing to maintain my set up till something major occurs.  
 This has been one of my biggest projects in my life as I've started using virtual machines since year 7 (For y'all american folks that's grade 6).  
 Ever since I've been chasing my curiosity, from basic computer networking all the way to being a server admin for the services I use for myself and some of my friends.
+
+# 06/07/2026
+
+You know what is amazing, I couldn't figure out why I couldn't access my Vaultwarden instance for the longest time and then I when I tried to access it, It was an SSL problem!  
+Now I've checked out the logs on the caddy Docker container I've been running and as it turns out, it couldn't get a certificate because of Cloudflare's proxy blocking the ACME challenge.  
+On my old setup I wasn't using Cloudflare at the time so it made sense. Now I don't need it anymore and now I just made caddy to generate the TLS cert internally. Since I didn't need the to do the challenge anymore it was just blocking my access.  
+Lord and behold it works!
